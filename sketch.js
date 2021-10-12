@@ -63,20 +63,20 @@ function draw() {
   fill(135);
   textFont(semiFont);
   textSize(16);
-  text('James', 76, 234,53,20);
+  text('Alice', 76, 234,53,20);
   text('Tim', 76, 338,31,20);
-  text('Alice', 76, 442,40,20);
+  text('James', 76, 442,40,20);
   text('Debby', 76, 592,54,20);
   text('Jimmy', 76, 696,55,20);
 
   textSize(12);
-  text('Men’s Haircut | Men’s color', 76, 266,180,16);
+  text('Women’s Haircut | Women’s Color', 76, 266,180,16);
   text('1:30pm-3:30pm', 76, 294,91,16);
 
   text('Men’s Haircut | Men’s color', 76, 370,180,16);
   text('1:00pm-3:00pm', 76, 398,93,16);
 
-  text('Women’s Haircut | Women’s Color', 76, 474,210,16);
+  text('Men’s Haircut | Men’s color', 76, 474,210,16);
   text('10:00am-12:00pm', 76, 502,106,16);
 
   text('Women’s Color', 76, 624,91,16);
@@ -90,6 +90,10 @@ function draw() {
   image(profile,270,494,100,24);
   image(profile,270,644,100,24);
   image(profile,270,748,100,24);
+
+  img = createImg('assets/ViewProfile.png').parent(link2);
+  img.position(270, 286);
+  img.size(100,24);
 
   img = createImg('assets/menu.png').parent(link2);
   img.position(27, 28);

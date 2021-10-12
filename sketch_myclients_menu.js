@@ -91,11 +91,11 @@ function draw() {
   fill(206,138,146);
   textSize(25);
   textFont(medFont);
-  text("Appointments", 31,164,185,30);
+  text("Work Settings", 31,242,175,30);
   text("My Clients", 31,203,190,30);
 
-  img = createImg('assets/WorkSettings.png').parent(link);
-  img.position(31, 242);
+  img = createImg('assets/Appointments.png').parent(link);
+  img.position(31, 164);
   img.size(175,30);
 
 
