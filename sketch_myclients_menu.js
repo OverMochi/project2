@@ -16,7 +16,7 @@ extraFont = loadFont('assets/Montserrat-ExtraBold.ttf');
 function setup() {
   createCanvas(390,844);
 
-  link = createA('myclientprofile.html', '');
+  link = createA('index.html', '');
   link2 = createA('myclients.html', '');
 }
 

@@ -39,8 +39,8 @@ function draw() {
   rect(20,76,1,16,2);
 
   image(close,336,19,34,34);
-  image(keyboard,0,477,390,303);
-  image(check,310,397,60,60);
+  image(keyboard,0,397,390,303);
+  image(check,310,317,60,60);
 
   img = createImg('assets/camera.png').parent(link2);
   img.position(286, 19);

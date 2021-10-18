@@ -19,12 +19,12 @@ function setup() {
 function draw() {
   background(206,138,146);
 
-  image(img4,8,16,374,637);
-  image(turn,318,698,48,48);
+  image(img4,8,16,374,543);
+  image(turn,318,608,48,48);
 
 
   img = createImg('assets/shoot.png').parent(link2);
-  img.position(162, 689);
+  img.position(162, 599);
   img.size(66,66);
 
 }

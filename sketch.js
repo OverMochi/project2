@@ -16,8 +16,8 @@ extraFont = loadFont('assets/Montserrat-ExtraBold.ttf');
 function setup() {
   createCanvas(390,844);
 
-  link = createA('myclient.html', '');
-  link2 = createA('appointments_menu.html', '');
+  link = createA('appointments_menu.html', '');
+  link2 = createA('myclients.html', '');
 }
 
 function draw() {
@@ -95,7 +95,7 @@ function draw() {
   img.position(270, 286);
   img.size(100,24);
 
-  img = createImg('assets/menu.png').parent(link2);
+  img = createImg('assets/menu.png').parent(link);
   img.position(27, 28);
   img.size(30,30);
 
