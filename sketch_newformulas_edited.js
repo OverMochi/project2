@@ -44,7 +44,7 @@ function draw() {
 
 
   img = createImg('assets/check.png').parent(link2);
-  img.position(310, 605);
+  img.position(310, 589);
   img.size(60,60);
 
 }
